@@ -109,6 +109,7 @@ form.addEventListener("submit", (e) => {
       description,
       id,
       date: `${month} ${day},${year}`,
+
     };
 
     // Güncelleme modunu kapat ve popup içerisindeki elemanları eskiye çevir
@@ -123,7 +124,7 @@ form.addEventListener("submit", (e) => {
       id,
       title,
       description,
-      date: "${month} ${day} ,${year}",
+      date: `${month} ${day},${year}`,
     };
 
     // noteinfo yu note dizisine ekle
